@@ -1,6 +1,10 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+  buildDir: 'dist',
+  generate: {
+    fallback: true,
+  },
 
   // for access env global
   env: {
