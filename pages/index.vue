@@ -34,10 +34,10 @@ export default {
     TagList,
     InfiniteProducts,
   },
-  async asyncData({ store }) {
+  fetch({ store }) {
     return (
-      (await store.dispatch("home/getSliderProducts")) &&
-      (await store.dispatch("home/getInfiniteProducts"))
+      store.dispatch("home/getSliderProducts") &&
+      store.dispatch("home/getInfiniteProducts")
     );
   },
   data() {
