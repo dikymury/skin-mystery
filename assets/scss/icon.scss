@@ -1,0 +1,136 @@
+@mixin size($val){
+  width: $val+px;
+  height: $val+px;
+}
+@mixin image($val) {
+  background-image: url($val);
+}
+.icon-exp{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  @include size(20);
+}
+.ice-35{
+  @include size(35);
+}
+.ice-32{
+  @include size(32);
+}
+.ice-30{
+  @include size(30);
+}
+.ice-29{
+  @include size(29);
+}
+.ice-28{
+  @include size(28);
+}
+.ice-27{
+  @include size(27);
+}
+.ice-26{
+  @include size(26);
+}
+.ice-25{
+  @include size(25);
+}
+.ice-24{
+  @include size(24);
+}
+.ice-23{
+  @include size(23);
+}
+.ice-22{
+  @include size(22);
+}
+.ice-21{
+  @include size(21);
+}
+.ice-20{
+  @include size(20);
+}
+.ice-19{
+  @include size(19);
+}
+.ice-18{
+  @include size(18);
+}
+.ice-17{
+  @include size(17);
+}
+.ice-16{
+  @include size(16);
+}
+.ice-15{
+  @include size(15);
+}
+.ice-14{
+  @include size(14);
+}
+.ice-13{
+  @include size(13);
+}
+.ice-12{
+  @include size(12);
+}
+
+// icons list
+.ice-phone-gray{
+  @include image("~/assets/img/icons/phone-gray.svg")
+}
+.ice-store-gray{
+  @include image("~/assets/img/icons/store-gray.svg")
+}
+.ice-mail-gray{
+  @include image("~/assets/img/icons/mail-gray.svg")
+}
+.ice-faq-gray{
+  @include image("~/assets/img/icons/faq-gray.svg")
+}
+.ice-notification-black{
+  @include image("~/assets/img/icons/notification-black.svg")
+}
+.ice-cart-black{
+  @include image("~/assets/img/icons/cart-black.svg")
+}
+.ice-chat-black{
+  @include image("~/assets/img/icons/chat-black.svg")
+}
+.ice-search-black{
+  @include image("~/assets/img/icons/search-black.svg")
+}
+.ice-diamond-blue{
+  @include image("~/assets/img/icons/diamond-blue.svg")
+}
+.ice-setting-blue{
+  @include image("~/assets/img/icons/setting-blue.svg")
+}
+.ice-voucher{
+  @include image("~/assets/img/icons/voucher.svg")
+}
+.ice-review{
+  @include image("~/assets/img/icons/review.svg")
+}
+.ice-order{
+  @include image("~/assets/img/icons/order.svg")
+}
+.ice-store{
+  @include image("~/assets/img/icons/store.svg")
+}
+.ice-address{
+  @include image("~/assets/img/icons/address.svg")
+}
+.ice-logout{
+  @include image("~/assets/img/icons/logout.svg")
+}
+.ice-star{
+  @include image("~/assets/img/icons/star.svg")
+}
+.ice-pin-gray{
+  @include image("~/assets/img/icons/pin-gray.svg")
+}
+.ice-cart-white{
+  @include image("~/assets/img/icons/cart-white.svg")
+}

@@ -1,0 +1,13 @@
+@mixin lineClamp($lines) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+}
+$listLines: 1, 2, 3, 4;
+
+@each $line in $listLines {
+  .line-clamp-#{$line} {
+    @include lineClamp($line);
+  }
+}

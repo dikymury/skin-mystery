@@ -1,0 +1,74 @@
+// modal transition
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.bounce-enter-active {
+  animation: bounce-in 0.5s;
+}
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scroll-enter-active {
+  animation: scroll-in 0.3s;
+}
+.scroll-leave-active {
+  animation: scroll-in 0.3s reverse;
+}
+@keyframes scroll-in {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.scroll-x-enter-active {
+  animation: scroll-x 0.3s;
+}
+.scroll-x-leave-active {
+  animation: scroll-x 0.3s reverse;
+}
+@keyframes scroll-x {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.curtain-enter-active {
+  animation: curtain-in 1s;
+}
+.curtain-leave-active {
+  animation: curtain-in 1s reverse;
+}
+@keyframes curtain-in {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: auto;
+  }
+}
+// end modal transition
