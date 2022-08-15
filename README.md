@@ -3,6 +3,13 @@
 ## Build Setup
 
 ```bash
+
+# install dependencies
+$ Deskripsi
+Skin Mystery dibuat dengan nuxt js serta bantuan dari vuex, tailwind, vue carousel.
+menerapkan design dengan membagi bagi setiap element menjadi komponent2 untuk di gabungkan pada halaman
+SEO seperti meta dll di terapkan di halaman langsung dengan skrip head bawaan dari nuxt js
+
 # install dependencies
 $ npm install
 
